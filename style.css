@@ -193,3 +193,62 @@ button:hover {
     background: linear-gradient(90deg, #d10b5d, #75097b, #04e2ff);
     color: white;
 }
+
+@media (max-width: 768px) {
+
+#navbar{
+    height: auto;
+    padding: 15px;
+    text-align: center;
+}
+
+#navbar h2{
+    position: static;
+    transform: none;
+    margin-bottom: 10px;
+}
+
+#navbar div{
+    position: static;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+a{
+    margin-right: 0;
+}
+
+.Profile{
+    position: static;
+    transform: none;
+    margin: 20px auto;
+}
+.click-img{
+    width: 140px;
+    height: 140px;
+}
+
+.skills-container{
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill img{
+    width: 60px;
+    height: 60px;
+}
+.section-body{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.feedback-container{
+    width: 95%;
+    margin: auto;
+}
+.section-heading{
+    text-align: center;
+}
+
+}
+
